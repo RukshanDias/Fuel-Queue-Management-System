@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w1912792_task04.task04_controller">
+   <children>
+      <Label layoutX="95.0" layoutY="57.0" styleClass="Home_Title" stylesheets="@style.css" text="Fuel Management System " textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <VBox layoutX="211.0" layoutY="129.0" prefHeight="192.0" prefWidth="178.0" style="-fx-alignment: center; -fx-spacing: 40px;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToViewQueues" styleClass="Home_Btns" stylesheets="@style.css" text="View Queues" textFill="#2e2b2b">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#switchToSearch" styleClass="Home_Btns" stylesheets="@style.css" text="Search Passengers" textAlignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#switchToFuelIncome" styleClass="Home_Btns" stylesheets="@style.css" text="Fuel income" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

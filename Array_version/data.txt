@@ -1,0 +1,24 @@
+Queue 1
+Queue no, 1 location 1 --> ds
+Queue no, 1 location 2 --> null
+Queue no, 1 location 3 --> null
+Queue no, 1 location 4 --> null
+Queue no, 1 location 5 --> null
+Queue no, 1 location 6 --> null
+
+Queue 2
+Queue no, 2 location 1 --> null
+Queue no, 2 location 2 --> null
+Queue no, 2 location 3 --> null
+Queue no, 2 location 4 --> null
+Queue no, 2 location 5 --> null
+Queue no, 2 location 6 --> null
+
+Queue 3
+Queue no, 3 location 1 --> null
+Queue no, 3 location 2 --> null
+Queue no, 3 location 3 --> null
+Queue no, 3 location 4 --> null
+Queue no, 3 location 5 --> null
+Queue no, 3 location 6 --> null
+

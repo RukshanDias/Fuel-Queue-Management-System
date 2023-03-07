@@ -1,0 +1,45 @@
+/*common styles*/
+.background{
+-fx-background-color:linear-gradient(to right, #2193b0, #6dd5ed);
+}
+.View_Btn{
+-fx-background-color:#134261;
+-fx-background-radius:25px;
+-fx-text-fill: #fff;
+-fx-cursor: hand;
+-fx-padding:8px 25px;
+}
+.GoBack_Btn{
+-fx-background-color:#2b1887;
+-fx-background-radius:25px;
+-fx-text-fill: #fff;
+-fx-cursor: hand;
+-fx-padding:8px 25px;
+}
+.View_Btn:hover{
+-fx-background-color:#eb1887;
+}
+.GoBack_Btn:hover{
+-fx-background-color:#eb1887;
+}
+.Page_Title{
+-fx-font-size:25px;
+-fx-font-weight:bold;
+}
+
+
+/*Home Page style*/
+.Home_Btns{
+-fx-background-color: #89f0ae;
+-fx-border-radius:50%;
+-fx-scale-x:1.5;
+-fx-scale-y:1.5;
+-fx-font-weight:bold;
+-fx-cursor: hand;
+}
+.Home_Title{
+-fx-font-size:35px;
+}
+
+/*View queues Page style*/
+
